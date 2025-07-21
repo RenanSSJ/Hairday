@@ -5,3 +5,7 @@ import "./libs/dayjs.js"
 import "./styles/global.css"
 import "./styles/form.css"
 import "./styles/schedule.css"
+
+//js
+import "../src/modules/form/submit.js"
+import "../src/modules/page-load.js"
