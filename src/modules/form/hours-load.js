@@ -5,6 +5,8 @@ import { hoursClick } from "./hours-click"
 const hours = document.getElementById("hours")
 
 export function hoursLoad( { date }) {
+  //clear time list
+  hours.innerHTML = ""
   const opening = openingHours.map((hour) => {
   //get hour
     const [scheduleHour] = hour.split(":")
