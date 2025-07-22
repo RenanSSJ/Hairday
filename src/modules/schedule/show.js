@@ -11,7 +11,7 @@ export function scheduleShow({ dailySchedules }) {
     periodAfternoon.innerHTML = ""
     periodNight.innerHTML = ""
 
-    dailySchedules.array.forEach((schedule) =>{
+    dailySchedules.forEach((schedule) =>{
       const item = document.createElement("li")
       const time = document.createElement("strong")
       const name = document.createElement("span")

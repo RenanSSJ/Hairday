@@ -13,7 +13,7 @@ export async function scheduleDay() {
   
   //show schedules
   scheduleShow({ dailySchedules })
-  
+
   // available time
-  hoursLoad({ date })
+  hoursLoad({ date, dailySchedules })
 }
