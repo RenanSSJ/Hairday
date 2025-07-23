@@ -44,7 +44,6 @@ form.onsubmit = async (event) => {
   const id = new Date().getTime()
   
   await scheduleNew({
-    id,
     name,
     when,
   })

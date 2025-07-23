@@ -22,10 +22,10 @@ export function hoursLoad( { date, dailySchedules }) {
     //verify if time available
     const available = !unavailableHours.includes(hour) && !isHourPast
 
-    return{
-      hour,
-      available: isHourPast,  
-    }
+    return {
+    hour,
+    available
+  }
   })
   
   //show time
